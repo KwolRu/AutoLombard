@@ -6,7 +6,7 @@
 <?php include 'scripts.php'; ?>
 
 <?php include 'head.php'; ?>
-
+ 
 <!-- include -->
 
 <body>
