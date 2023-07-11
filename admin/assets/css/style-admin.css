@@ -1,0 +1,142 @@
+* {
+    font-family: "Gilroy";
+  }
+  
+  body {
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    overflow-y: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #dde5f4;
+    height: 100vh;
+  }
+  
+  .screen-1 {
+    background: #f1f1f1;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 25%;
+    border-radius: 25px;
+    /* box-shadow: 0 0 2em #e6e9f9; */
+    /* gap: 2em; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  }
+  .screen-1 .logo {
+    margin-top: -3em;
+  }
+  .screen-1 .email {
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    margin: 20px 0px;
+    /* gap: 0.5em; */
+    padding: 20px;
+    font-weight: 600;
+    border-radius: 20px;
+    color: #030303;
+    /* margin-top: -3em; */
+  }
+  .screen-1 .email input {
+    outline: none;
+    border: none;
+  }
+  .screen-1 .email input::-moz-placeholder {
+    color: #bbbbc3;;
+    font-size: 0.9em;
+  }
+  .screen-1 .email input:-ms-input-placeholder {
+    color: #bbbbc3;;
+    font-size: 0.9em;
+  }
+  .screen-1 .email input::placeholder {
+    color:#bbbbc3;;
+    font-size: 0.9em;
+  }
+  .screen-1 .email ion-icon {
+    color: #4d4d4d;
+    margin-bottom: -0.2em;
+  }
+  .screen-1 .password {
+    background: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-weight: 600;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    color: #030303;
+  }
+  .screen-1 .password input {
+    outline: none;
+    border: none;
+  }
+  .screen-1 .password input::-moz-placeholder {
+    color: #bbbbc3;;
+    font-size: 0.9em;
+  }
+  .screen-1 .password input:-ms-input-placeholder {
+    color: #bbbbc3;;
+    font-size: 0.9em;
+  }
+  .screen-1 .password input::placeholder {
+    color: #bbbbc3;;
+    font-size: 0.9em;
+  }
+  .screen-1 .password ion-icon {
+    color: #4d4d4d;
+    margin-bottom: -0.2em;
+  }
+  .screen-1 .password .show-hide {
+    margin-right: -5em;
+  }
+  .screen-1 .login {
+    padding: 1em;
+    background: #07bb5c;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    color: #ffffff;
+    border: none;
+    margin: 20px 0px;
+    width: 100%;
+    border-radius: 30px;
+    font-weight: 600;
+  }
+  .screen-1 .footer {
+    display: flex;
+    font-size: 0.7em;
+    color: #464646;
+    /* gap: 14em; */
+    /* padding-bottom: 10em; */
+    justify-content: center;
+  }
+  .screen-1 .footer span {
+    cursor: pointer;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  .error_login {
+    padding: 20px;
+    background: #e10000;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    color: #ffffff;
+    display: flex;
+    margin: 20px 0px;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    font-weight: 600;
+    justify-content: center;
+}
+
+.error_login p {
+    margin-bottom: 0px;
+}
