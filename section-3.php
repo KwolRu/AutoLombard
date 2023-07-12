@@ -5,13 +5,13 @@
            
             <div class="body-tabble">
                 <div class="col-12 tabble-lider">
-                    <p class=" block-tabble">№</p>
-                    <p class="col-md-1 none2 block-tabble">Логотип</p>
-                    <p class="col-md-2  block-tabble">Наименование</p>
-                    <p class="col-md-2  block-tabble">Срок</p>
-                    <p class="col-md-1  block-tabble">Ставка</p>
-                    <p class="col-md-2  block-tabble">Сумма</p>
-                    <p class=" block-tabble"></p>
+                  <div class=""> <p class=" block-tabble">№</p></div> 
+                  <div class="col-md-1 none2">   <p class="  block-tabble">Логотип</p></div>
+                  <div class="col-md-2 "> <p class=" block-tabble">Наименование</p></div> 
+                  <div class="col-md-2 "><p class=" block-tabble">Срок</p></div>  
+                  <div class="col-md-1 "> <p class=" block-tabble">Ставка</p></div> 
+                  <div class="col-md-2">  <p class="  block-tabble">Сумма</p></div> 
+                  <div class="col-md-2">  <p class=" block-tabble"></p></div> 
                 </div>
                 <?php
                 // Query to fetch all data from the "banks" table

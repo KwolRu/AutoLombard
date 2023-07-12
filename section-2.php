@@ -3,7 +3,7 @@
         <div class="row ">
 
       
-<div class="col-sm-6 col-lg-6 col-sm-12">
+<div class="col-md-12 col-lg-6 col-sm-12">
 <div class="block-list-calc">
 
 <a class="block-list-calc-a" href="">Банки</a>
@@ -47,7 +47,7 @@
                 </div>
             </div>
 
-            <div class="col-sm-6 col-lg-6 col-s m-12">
+            <div class="col-md-12 col-lg-6 col-sm-12">
             <div class="block-calc-body">
 <div class="block-calc">
 

@@ -27,23 +27,23 @@
         <div class="row ">
             <div class="col-sm-6 col-lg-6 col-sm-12  col-xl-12 form-header ">
                 <form id="feedback-form" action="form.php" method="POST">
-                    <div class="form-group field">
+                    <div class="form-group field wrap">
                         <div class="fw">
                             <label for="name" class="form-label">Номер телефона: </label>
                             <br>
-                            <input type="phone" class="form-field" placeholder="8 900 800 90 80" name="phone" id="phone" required="">
+                            <input type="phone" id="numrm" class="form-sect-1 " placeholder="8 900 800 90 80" name="phone" id="phone" required="">
 
                         </div>
 
                         <div class="fw">
                             <label for="name" class="form-label">ФИО:</label>
                             <br>
-                            <input type="text" class="maskphone-2 form-field" placeholder="Иван Иванов Иванович" name="text" id="text" required="">
+                            <input type="text" id="numrm" class="maskphone-2 form-sect-1" placeholder="Иван Иванов Иванович" name="text" id="text" required="">
                         </div>
 
 
                        
-                         <button type="button" class="btn btn-primary button-2">
+                         <button type="button" class="btn btn-primary button-sect-1">
                             Подать заявку
                         </button>
 

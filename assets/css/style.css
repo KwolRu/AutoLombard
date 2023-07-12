@@ -1840,18 +1840,8 @@ div[data-toggle="collapse"] {
   cursor: pointer
 }
 
-.faq-questions>li p.faq-answer,
-.faq-questions>li .faq-asnwer {
-  font-size: 10pt;
-  line-height: 1.5;
-  margin-top: 7px;
-  display: none
-}
 
-.faq-questions>li p.faq-answer:hover,
-.faq-questions>li .faq-asnwer:hover {
-  color: #000
-}
+
 
 .questions-body {
   display: flex;
@@ -4012,10 +4002,26 @@ button {
   color: #FFF;
   /* margin-top: 20px; */
   text-align: center;
-  width: 92%;
+  width: 100%;
   font-size: 22px;
   margin: 47px 0px 0px 0px !important;
   height: 66px;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 700 !important;
+  line-height: normal;
+  border-radius: 15px !important;
+}
+.button-sect-1 {
+  background: #07BB5C !important;
+  border: none !important;
+  color: #FFF;
+  /* margin-top: 20px; */
+  text-align: center;
+  width: 90%;
+  font-size: 22px;
+  margin: 46px 0px 0px 0px !important;
+  height: 57px;
   font-family: Gilroy;
   font-style: normal;
   font-weight: 700 !important;
@@ -4131,7 +4137,12 @@ input#numroom {
   color: #202020;
   font-size: 22px
 }
-
+input#numrm {
+  padding: 13px 20px;
+  font-weight: 300;
+  color: #202020;
+  font-size: 20px;
+}
 label {
   margin-bottom: 4px !important;
   margin-top: 19px;
@@ -4496,7 +4507,7 @@ ul li:hover {
 }
 
 .block-list-calc-a {
-  margin: 10px;
+  margin: 0 0 10px 0;
   color: #000;
   text-align: center;
   font-size: 20px;
@@ -4505,7 +4516,7 @@ ul li:hover {
   font-style: normal;
   font-weight: 700;
   line-height: 273%;
-  border: 1px solid #000;
+  border: 1px solid #c4c4c4;
   border-radius: 15px;
 }
 
@@ -4568,7 +4579,7 @@ ul li:hover {
 }
 
 .container .faq {
-  width: 50%;
+  width: 100%;
   position: relative;
 }
 
@@ -4636,9 +4647,10 @@ ul li:hover {
   font-size: 13pt;
   color: #595959;
   line-height: 1.5;
+  font-weight: 500;
   /* margin-left: 20px; */
   margin-top: 7px;
-  padding: 4px 17px 36px 78px;
+  padding: 4px 17px 36px 25px;
   display: none;
 }
 
@@ -4913,12 +4925,12 @@ ul li:hover {
 
 .tabble-lider p {
   color: #fff;
-  text-align: center;
+  text-align: left;
   font-size: 16px;
   font-weight: 800;
   font-family: 'Gilroy';
   font-style: normal;
-  /* margin: 2px 15px 0 0; */
+  margin: 0px 0px 0 0px;
   font-weight: 700;
   /* line-height: normal; */
 }
@@ -5057,18 +5069,9 @@ ul li:hover {
   cursor: pointer
 }
 
-.faq-questions>li p.faq-answer,
-.faq-questions>li .faq-asnwer {
-  font-size: 10pt;
-  line-height: 1.5;
-  margin-top: 7px;
-  display: none
-}
 
-.faq-questions>li p.faq-answer:hover,
-.faq-questions>li .faq-asnwer:hover {
-  color: #000
-}
+
+
 
 .questions-body {
   display: flex;
@@ -5115,7 +5118,7 @@ input {
   margin-bottom: 19px;
   padding: 15px 20px;
   width: 100%;
-  margin: 20px 0px;
+  /* margin: 20px 0px; */
   align-items: center;
   background: #ffffff;
   cursor: pointer;
@@ -5138,7 +5141,11 @@ input {
   padding: 5px;
   height: 40px;
 }
-
+.form-sect-1 {
+  width: 90%;
+  /* position: relative; */
+  padding: 5px;
+}
 .block-list-calc {
   padding: 0px 70px 30px 0px;
 }
@@ -5251,8 +5258,8 @@ a {
 }
 
 a:hover {
-  transition: 0.3s;
-  top: 2px;
+  transition: 1s;
+  top: 1px;
 }
 
 /*----------------------------------------------------*/
@@ -5340,6 +5347,7 @@ a:hover {
 
 .bank-button-row-two a {
   padding: 10px 25px;
+  width: 96%;
   color: rgb(255, 255, 255) !important;
   border-radius: 15px;
   font-weight: 600;
@@ -5378,12 +5386,13 @@ a:hover {
 
 .display-flex {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .block-nd-title-bank {
+  margin-bottom: 0px;
+  width: 100%;
   position: relative;
-
-
 }
 
 .block-nd-title-bank p {
@@ -5399,6 +5408,13 @@ a:hover {
   margin: 12px 0 46px 0;
 }
 
+.h2-bank-banks-name {
+  font-size: 44px;
+  font-family: 'Montserrat';
+  font-weight: 800;
+  line-height: 41px;
+  margin: 30px 0;
+}
 .p-bank-lider {
   font-size: 23px;
   font-family: 'gilroy';
@@ -5450,7 +5466,7 @@ a:hover {
   border: 1px solid #07bb5c;
   color: #07bb5c;
   text-align: center;
-  padding: 14px 23px;
+  padding: 14px 77px;
   font-weight: 800;
   font-size: 15px;
   justify-content: center;
@@ -5479,9 +5495,9 @@ a:hover {
 
 .block-nd-title-bank img {
   position: absolute;
-  top: 4px;
-  width: 16%;
-  left: 95px;
+  top: 6px;
+  width: 10%;
+  left: 98px;
 }
 
 .header-link-a:hover {
@@ -5885,12 +5901,16 @@ p {
 .tabble-lider {
     background: #07bb5c;
     color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .tabble-block {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    align-items: center;
 }
 .admin-flex{
   display: flex;
@@ -5903,3 +5923,38 @@ p {
 .modal-body input {
     margin: 5px 0px;
 }
+.nember-blocks-flex{
+  background: #ececec;
+  padding: 19px;
+  color: #000;
+  font-size: 24px;
+}
+.title-banks-info-body {font-size: 30px;text-align: center;}
+.flex-block-infobank {
+
+}
+.title-blocks-flex {width: 100%;/* background: #07bb5c; */padding: 10px 0 0px 0px;font-size: 18px;line-height: 19px;font-weight: 600;color: #fff;}
+.blocks-flex-infobank{
+  display: flex;
+  justify-content: space-between;
+  background: #07bb5c;
+  text-align: center;
+  border-radius: 15px 15px 0 0;
+  align-items: center;
+}
+.lider-info-block-one {border-radius: 15px;margin: 20px 0;background: #07bb5c;font-size: 25px;text-align: center;font-weight: 600;color: #fff;}
+.lider-info-block-one p {border-radius: 15px;}
+.body-block-info-one {display: flex;align-items: center;font-weight: 800;/* margin-bottom: 6px; */border-radius: 15px;padding: 7px;background: #ececec;justify-content: flex-start;}
+.body-block-info {
+  display: flex;
+  padding: 6px;
+  /* line-height: 15px; */
+  align-items: center;
+}
+.bn-in-h4{
+  font-size: 40px;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.body-block-info-two{display: flex;justify-content: space-between;font-size: 18px;font-weight: 500;margin: 0 0 0 10px;line-height: 20px;align-items: center;}

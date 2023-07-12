@@ -1,31 +1,31 @@
 <!DOCTYPE html>
-<html lang="ru">
+	<html lang="ru">
 
+	
+		<!-- include -->
+		<?php include 'scripts.php';?>
 
+		<?php include 'head.php';?>
+		
+		<!-- include -->
+
+	<body>
+		<!-- include -->
+		<?php include 'header.php';?>
+
+		
 <!-- include -->
-<?php include 'scripts.php'; ?>
+<?php include 'bank.php';?>
 
-<?php include 'head.php'; ?>
- 
-<!-- include -->
+		<!-- include -->
+		<?php include 'modal.php';?>
 
-<body>
-	<!-- include -->
-	<?php include 'header.php'; ?>
+		<!-- include -->
+		<?php include 'footer.php';?>
 
 
-	<!-- include -->
-	<?php include 'bank.php'; ?>
+		
+		
+	</body>
 
-	<!-- include -->
-	<?php include 'modal.php'; ?>
-
-	<!-- include -->
-	<?php include 'footer.php'; ?>
-
-
-
-
-</body>
-
-</html>
+	</html>

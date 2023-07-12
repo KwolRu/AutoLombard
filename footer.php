@@ -23,9 +23,9 @@
             </div>
             <div class="col-md-2">
                 <div class="col-foter">
-                    <a class="tittle" href="https://">
+                    <div class="tittle" href="https://">
                         <p class="big">Контакты</p>
-                    </a>
+</div>
                     <ul>
                         <li>8(800)800-80-80</li>
                         <li>8(800)800-80-80 (WhatsApp)</li>
@@ -81,7 +81,7 @@
                 </div>
                 <div>
                     <p class="mini">
-                        © 2016 - 2023 Все права защищены ООО "№№№№№№№"
+                        © 2016 - <? echo  $date->format('Y'); ?> Все права защищены ООО "Экспресс Дизайн"
                     </p>
                 </div>
             </div>

@@ -5,7 +5,7 @@
 
             <div class="col-md-12 questions-body">
 
-                <div class="col-sm-6 col-lg-6 col-sm-12 faq border-block-questions">
+                <div class="col-lg-12 col-xl-6 col-sm-12 faq border-block-questions">
                     <ul class="faq-questions">
 
                         <li class="questions-block">
@@ -53,7 +53,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-sm-6 col-lg-6 col-sm-12 faq border-block-questions">
+                <div class="col-lg-12 col-xl-6 col-sm-12 faq border-block-questions">
                     <ul class="faq-questions">
 
                         <li class="questions-block">

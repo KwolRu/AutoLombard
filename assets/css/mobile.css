@@ -50,9 +50,12 @@
 }
 
 @media only screen and (max-width:1058px) {
+    .wrap {
+        flex-wrap: wrap;
+      }
  
     
-.container .faq {
+.faq {
     width: 100%;
     position: relative;
   }
@@ -154,7 +157,7 @@
         padding-bottom: 40px;
     }
     .tabble-lider p {
-        color: #000;
+        color: #fff;
         text-align: left;
         font-size: 15px;
         font-family: Montserrat;
@@ -186,6 +189,38 @@
 }
 
 @media only screen and (max-width:719px) {
+    .body-block-info-two {
+        padding: 5px 0;
+        flex-wrap: wrap;
+    }
+    .blocks-flex-infobank {
+        flex-wrap: wrap;
+    }
+    .body-block-info {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .button-sect-1 {
+        width: 100%;
+    }
+    .form-sect-1 {
+        width: 100%;
+        /* position: relative; */
+        padding: 5px;
+    }
+    .none2 {
+        display: none !important;
+    }
+    .bank-button-row a {
+        /* padding: 10px 10%; */
+        width: 100%;
+        /* margin: 8px 0; */
+        color: #000;
+        border-radius: 20px;
+        font-weight: 600;
+        border: 1px solid #727272;
+      }
+      
     .left-zz {
         margin-bottom: 10px !important;
         text-align: left;
@@ -331,9 +366,7 @@
         line-height: normal;
     }
 
-    .none2 {
-        display: none;
-    }
+  
 
     .container .faq-questions>li:nth-child(even) {
         margin-bottom: 24px;

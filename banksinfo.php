@@ -15,7 +15,6 @@
 
 
 	<!-- include -->
-	<?php include 'aboutbank.php'; ?>
 	<?php include 'bankinfo.php'; ?>
 	<?php include 'modal.php'; ?>
 	<!-- include -->

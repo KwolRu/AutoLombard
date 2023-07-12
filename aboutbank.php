@@ -21,11 +21,13 @@ if ($result->num_rows > 0) {
                         <div class="display-flex block-nd-title-bank">
                             <p class="ot">Банки</p> <img src="assets/img/Arrow 1.png" alt="">
                             <p> <? echo $row["main_name"]; ?></p>
-                        </div>
-                        <h2 class="h2-bank-lider"> <? echo $row["name"]; ?> </h2>
+                            </div>
+                            
+                        <h2 class="h2-bank-banks-name"> <? echo $row["name"]; ?> </h2>
                         <p class="p-bank-lider">
                             <? echo $row["desc"]; ?>
                         </p>
+                       
                     </div>
                     <div class="col-12 col-sm-12 col-lg-6 col-md-12 col-xl-6 img-body-about-bank">
                         <div class="bank">
