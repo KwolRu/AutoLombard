@@ -43,7 +43,7 @@ $conn->close();
     <?php include 'head.php';?>
 </head>
 
-<body>wwwwwww
+<body>
     <div class="screen-1">
         
         <form method="POST" action="<?php echo $_SERVER["PHP_SELF"]; ?>">
