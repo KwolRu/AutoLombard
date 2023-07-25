@@ -6,14 +6,14 @@
                 <div class="col-lg-4 col-xl-4 col-4 none">
                     <ul class="header-links">
 
-                        <li class="header-link "><a href="index.php" class=" header-link-a">Главная</a> </li>
+                        <li class="header-link "><a href="/index.php" class=" header-link-a">Главная</a> </li>
                         <li class="header-link "><a href="" class=" header-link-a">Отзывы</a> </li>
                         <li class="header-link "><a href="#faq" class=" header-link-a">FAQ</a> </li>
 
                     </ul>
                 </div>
                 <div class="col-lg-3 col-xl-3 col-6 logo-svg">
-                    <div class=""> <a href=""><img class="" src="assets/img/logo-long.png" alt=""> </a></div>
+                    <div class=""> <a href="/index.php"><img class="" src="/assets/img/logo-long.png" alt=""> </a></div>
                 </div>
                 <div class="col-lg-4 col-xl-4 col-4 none">
                     <ul class="header-links">
@@ -32,54 +32,6 @@
 
 
             </div>
-
-        </div>
-    </div>
-</header>
-<header class="navbar-mini ">
-    <div class="container ">
-        <div class="row">
-
-            <div class="col-lg-12 col-xl-12 col-12">
-
-
-                <div class="hamburger-menu menu">
-                    <input id="menu__toggle" type="checkbox" />
-                    <label class="menu__btn" for="menu__toggle">
-                        <span></span>
-                    </label>
-
-                    <ul class="menu__box">
-                        <ul>
-
-                            <li><a class="menu__item" href="index.php">Главная</a></li>
-
-                            <li><a class="menu__item" href="">Отзывы</a></li>
-
-                            <li><a class="menu__item" href="#faq">FAQ</a></li>
-
-                            <li><a class="menu__item" href="#currency">Валюта</a></li>
-
-                            <li><a class="menu__item" href="#category">Категории</a></li>
-                            <li><a class="menu__item" href="banks.php">Рейтинг</a></li>
-                 
-                        </ul>
-                    </ul>
-                </div>
-
-            </div>
-
-
-         
-                  
-                </div>
-                   <!-- <div class="col-lg-6 col-xl-6 col-6">
-                    <ul class="header-links ">
-                        <li class="header-link _icon-1 none">
-                            <a href="/promo-ipoteka/" class="header-link-a "> <img class="svg-1" src="assets/img/icon/avata.svg" alt=""> Войти </a>
-                        </li> <a href="tel:<? echo $number; ?>" class="header-phone "><? echo $number; ?></a>
-                    </ul>
-                </div>-->
 
         </div>
     </div>

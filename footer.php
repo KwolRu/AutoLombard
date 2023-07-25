@@ -1,10 +1,10 @@
 <footer>
     <div class="container">
         <div class="row ">
-            <div class="col-md-6">
+            <div class="col-md-4">
                 <div class="logo-footer">
 
-                    <img src="assets/img/LOGO.png" alt="">
+                    <img src="/assets/img/LOGO.png" alt="">
 
                 </div>
                 <div class="col-foter">
@@ -14,18 +14,16 @@
                         <li class="tittle">Договор оферты </li>
 
                     </ul>
-                    <p class="mini">
-                        Данный интернет-сайт носит исключительно информационный характер и ни при каких условиях не является публичной офертой, определяемой статьями 437 ГК РФ.
-                    </p>
+                   
 
 
                 </div>
             </div>
-            <div class="col-md-2">
+            <div class="col-md-3">
                 <div class="col-foter">
                     <div class="tittle" href="https://">
                         <p class="big">Контакты</p>
-</div>
+                    </div>
                     <ul>
                         <li>8(800)800-80-80</li>
                         <li>8(800)800-80-80 (WhatsApp)</li>
@@ -34,7 +32,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-md-2">
+            <div class="col-md-3">
                 <div class="col-foter">
                     <p class="big">Навигация:</p>
                     <ul>
@@ -57,19 +55,17 @@
 
             </div>
             <div class="col-md-2">
-
-
                 <div class="col-foter">
+                <p class="mini">
+                        Данный интернет-сайт носит исключительно информационный характер и ни при каких условиях не является публичной офертой, определяемой статьями 437 ГК РФ.
+                    </p>
 
 
-                    <ul>
-                        <li><a href="">Акции</a></li>
-                        <li><a href="">Продукция</a></li>
-                        <li><a href="">Контакты</a></li>
-                    </ul>
 
                 </div>
+
             </div>
+           
 
             <div class="col-md-12 info">
                 <div>
@@ -81,7 +77,7 @@
                 </div>
                 <div>
                     <p class="mini">
-                        © 2016 - <? echo  $date->format('Y'); ?> Все права защищены ООО "Экспресс Дизайн"
+                        © 2016 - <? echo date("Y"); ?> Все права защищены
                     </p>
                 </div>
             </div>

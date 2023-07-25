@@ -1,15 +1,19 @@
+<?
+$url = 'http://green.io/admin/banks.php'; // Здесь нужно указать ваш URL
+$sort = isset($_GET['sort']) && !empty($_GET['sort']) ? $_GET['sort'] : 'sort_ru';
+?>
 <div class="left-block-body">
 
-        <div class="left-block-logo">
-            <p>AvtoLombard</p>
-        </div>
-        <div class="left-block-button">
+    <div class="left-block-logo">
+        <p>AvtoLombard</p>
+    </div>
+    <div class="left-block-button">
 
-            <a href="adminlider.php" class="left-button">Главная</a>
-            <a href="adminzayvki.php" class="left-button">Заявки</a>
-            <a href="sbanks.php" class="left-button">Банки </a>
+        <a href="main.php?sort=<? echo $sort ?>" class="left-button">Главная</a>
+        <a href="lids.php?sort=<? echo $sort ?>" class="left-button">Заявки</a>
+        <a href="banks.php?sort=<? echo $sort ?>" class="left-button">Банки </a>
 
-
-        </div>
 
     </div>
+
+</div>

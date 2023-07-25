@@ -7,10 +7,10 @@
 	<meta name="author" content="">
 	<meta name="robots" content="index, follow">
 	<link href="https://cdn.foreversites.comassets/css/owlcarousel.2.1.6.min.css" rel="stylesheet" crossorigin="anonymous">
-	<link rel="stylesheet" href="assets/css/style.css">
-	<link rel="stylesheet" href="assets/css/mobile.css">
-	<link rel="stylesheet" href="assets/css/fonts.css">
-	<link rel="stylesheet" href="assets/bootstarp/bootstrap.min.css">
+	<link rel="stylesheet" href="/assets/css/style.css">
+	<link rel="stylesheet" href="/assets/css/mobile.css">
+	<link rel="stylesheet" href="/assets/css/fonts.css">
+	<link rel="stylesheet" href="/assets/bootstarp/bootstrap.min.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js
 "></script>
@@ -21,4 +21,4 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-animateNumber/0.0.14/jquery.animateNumber.min.js"></script>
 
 </head>
-<?php include 'bd.php';?>
+<?php include 'app/bd.php';?>

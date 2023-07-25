@@ -56,7 +56,7 @@ body{
 	text-align:left;
 	position: relative !important;
 	overflow-x: hidden !important;
-	background-color: #ffffff !important;
+	background-color: #f4f6fb !important;
 }
 [tabindex="-1"]:focus{
 	outline:0!important
@@ -1791,7 +1791,7 @@ select.form-control:focus::-ms-value{
 	height:calc(2.875rem + 2px)
 }
 .form-group{
-	margin-bottom:1rem
+	margin-bottom: 1rem;
 }
 .form-text{
 	display:block;
